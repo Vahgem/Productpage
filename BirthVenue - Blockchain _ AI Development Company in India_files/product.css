@@ -1,0 +1,167 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  color: #323232;
+}
+.header {
+  min-height: 0px;
+}
+#Title {
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  padding: auto;
+  font-family: "Merriweather", serif;
+  font-size: 45px;
+  font-weight: bolder;
+  margin-top: 200px;
+  margin-bottom: -80px;
+}
+a {
+  color: black;
+}
+.main {
+  padding: 20px 50px 20px 50px;
+}
+.product {
+  display: flex;
+  margin: 50px 200px 150px 200px;
+}
+.pTitle {
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.pImage {
+  flex: 60%;
+  padding: 10px 10px;
+}
+.pDesc {
+  flex: 40%;
+  margin-left: 20px;
+  padding: 20px 10px;
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.cta-btn,
+.cta-btn-sec {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #fed065;
+  width: 340px;
+  margin: 20px 0px 10px 0px;
+}
+.cta-btn-sec {
+  color: #f7bd36;
+  background-color: #ffffff;
+  border: 2px solid #fed065;
+  width: 150px;
+  margin: 0px 10px 0px 0px;
+}
+.pDesc > p {
+  font-family: "Merriweather", serif;
+  font-size: larger;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 10px 0px;
+}
+
+.tool-header {
+  margin: 20px auto;
+  text-align: center;
+}
+.tool-header > h1 {
+  font-family: "Merriweather", serif;
+  font-size: 45px;
+  font-weight: bolder;
+  margin: 10px 0px;
+}
+.tool-header > ul {
+  list-style: none;
+  margin: 10px auto;
+  max-width: 50%;
+}
+.tool-header > ul > li {
+  display: flex;
+  text-align: left;
+  margin: 10px auto;
+}
+.tool-header > ul > li > div > h2 {
+  font-family: "Merriweather", serif;
+  font-size: 30px;
+  font-weight: 700;
+}
+.tool-header > ul > li > p {
+  font-family: "Merriweather", serif;
+  font-size: larger;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 2px 0px 10px 0px;
+}
+.tool-header > ul > li > div > img {
+  height: 60px;
+  width: auto;
+}
+
+.img-div {
+  height: 55px;
+  width: auto;
+  margin: 0px 20px 0px 0px;
+}
+
+.container {
+  margin: 100px 150px;
+}
+
+.container > h1 {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 45px;
+  font-weight: bolder;
+  margin: 5px 0px;
+}
+
+.grid {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  grid-gap: 20px;
+  align-items: stretch;
+}
+
+.grid > article {
+  margin: 20px;
+}
+
+.grid > article > span > img {
+  max-width: 100%;
+  margin: 0px 120px;
+}
+
+.grid .text {
+  padding: 20px;
+}
+
+.text > h3 {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 5px 0px;
+}
+
+.text > p {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  font-weight: normal;
+  margin: 5px 0px;
+}
