@@ -158,7 +158,10 @@ a {
   font-weight: normal;
   margin: 5px 0px;
 }
-@media only screen and (max-width: 1200px) and (min-width: 971px) {
+@media only screen and (min-width: 971px) {
+  .grid {
+    margin: 50px 0px;
+  }
   .container > h1 {
     text-align: center;
     font-family: "Merriweather", serif;
@@ -374,6 +377,7 @@ a {
   .tool-header > ul > li > div > h2 {
     font-family: "Merriweather", serif;
     font-size: 1em;
+    word-break: break-word;
     font-weight: 700;
   }
   .product {
